@@ -1,5 +1,5 @@
 # Write-up Template
-
+something
 ### Analyze, choose, and justify the appropriate resource option for deploying the app.
 
 *For **both** a VM or App Service solution for the CMS app:*
