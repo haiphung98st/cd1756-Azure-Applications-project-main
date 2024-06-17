@@ -9,7 +9,7 @@ class Config(object):
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'f95XgJlMP8sle2X0D0ANgiYbBN8Go3g2Wpfuocs/uHTN0BJmlo6kouzPFAERHoQkInUH1m1hBwHP+AStKHoSSA=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
-    SQL_SERVER = os.environ.get('SQL_SERVER') or 'haipmserver'
+    SQL_SERVER = os.environ.get('SQL_SERVER') or 'haipmserver.database.windows.net'
     SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'haipmcms'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'haipm'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'conmemay1998!'
